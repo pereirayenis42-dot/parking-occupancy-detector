@@ -50,6 +50,43 @@ The core detection and occupancy pipeline has been implemented. Current experime
 
 ## System Architecture
 
+
+### Processing Pipeline
+
+The project contains two processing approaches: the baseline occupancy detector and an experimental detect-first pipeline.
+
+```mermaid
+flowchart TD
+    A["Parking Lot Photograph"]
+    B["Reference Image and Parking Polygons"]
+    C["Baseline Pipeline"]
+    D["Experimental Detect-First Pipeline"]
+
+    A --> C
+    A --> D
+    B --> C
+    B --> D
+
+    subgraph BASE["Baseline: Align First"]
+        C --> E["Image Registration"]
+        E --> F["YOLO11 Vehicle Detection"]
+        F --> G["Occupancy Classification"]
+    end
+
+    subgraph EXP["Experimental: Detect First"]
+        D --> H["YOLO11 Vehicle Detection"]
+        H --> I["Transform Detection Polygons"]
+        I --> J["Polygon Occupancy Matching"]
+        J --> K["Registration Quality Gate"]
+    end
+
+    G --> L["OCCUPIED or VACANT"]
+    K --> M{"Alignment Acceptable?"}
+    M -->|Yes| N["Accept Occupancy Prediction"]
+    M -->|No| O["UNKNOWN"]
+```
+
+
 The Parking Occupancy Detector combines object detection, image registration, geometric analysis, and prediction-quality assessment.
 
 ### 1. Vehicle Detection
