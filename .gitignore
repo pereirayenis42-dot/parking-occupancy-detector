@@ -1,0 +1,30 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Model weights
+*.pt
+
+# Original photographs
+data/raw/
+data/test/
+
+# Temporary files
+.ipynb_checkpoints/
+
+# Generated images pending privacy review
+results/images/
+
+# Duplicate ignore file
+gitignore

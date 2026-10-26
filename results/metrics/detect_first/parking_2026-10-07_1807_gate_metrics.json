@@ -1,0 +1,10 @@
+{
+  "image": "parking_2026-10-07_1807.jpg",
+  "total_predictions": 4,
+  "accepted_predictions": 0,
+  "unknown_predictions": 4,
+  "coverage": 0.0,
+  "abstention_rate": 1.0,
+  "selective_accuracy": null,
+  "selective_accuracy_note": "Not calculated: requires ground-truth labels for accepted predictions. Undefined when no predictions are accepted."
+}

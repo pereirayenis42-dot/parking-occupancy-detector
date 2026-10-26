@@ -1,0 +1,5 @@
+image,space_id,predicted,registration_quality,gated_prediction
+parking_2026-10-07_1807.jpg,A01,VACANT,REVIEW,UNKNOWN
+parking_2026-10-07_1807.jpg,A02,OCCUPIED,REVIEW,UNKNOWN
+parking_2026-10-07_1807.jpg,A03,VACANT,REVIEW,UNKNOWN
+parking_2026-10-07_1807.jpg,A04,VACANT,REVIEW,UNKNOWN

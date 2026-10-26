@@ -1,0 +1,27 @@
+{
+  "image": "parking_2026-10-07_1807.jpg",
+  "mode": "experimental_quality_gate",
+  "note": "No occupancy predictions were loaded. This demonstrates quality-based abstention.",
+  "spaces": {
+    "A01": {
+      "quality_status": "REVIEW",
+      "gated_occupancy": "UNKNOWN",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger"
+    },
+    "A02": {
+      "quality_status": "REVIEW",
+      "gated_occupancy": "UNKNOWN",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger"
+    },
+    "A03": {
+      "quality_status": "REVIEW",
+      "gated_occupancy": "UNKNOWN",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger"
+    },
+    "A04": {
+      "quality_status": "REVIEW",
+      "gated_occupancy": "UNKNOWN",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger"
+    }
+  }
+}

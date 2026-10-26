@@ -1,0 +1,26 @@
+{
+  "A01": {
+    "status": "PROVISIONAL",
+    "error_px": 19.313207626342773,
+    "reason": "Below review threshold; not verified",
+    "landmark_count": 1
+  },
+  "A02": {
+    "status": "REVIEW",
+    "error_px": 31.62277603149414,
+    "reason": "Large landmark displacement",
+    "landmark_count": 1
+  },
+  "A03": {
+    "status": "PROVISIONAL",
+    "error_px": 15.620499610900879,
+    "reason": "Below review threshold; not verified",
+    "landmark_count": 1
+  },
+  "A04": {
+    "status": "REVIEW",
+    "error_px": 23.430749893188477,
+    "reason": "Large landmark displacement",
+    "landmark_count": 1
+  }
+}

@@ -1,0 +1,6 @@
+image,status,reference_features,test_features,good_matches,inliers,inlier_ratio,error
+parking_2026-10-05_1850.jpg,PROCESSED,4000,4000,111,77,0.694,
+parking_2026-10-06_1442.jpg,PROCESSED,4000,4000,407,384,0.943,
+parking_2026-10-06_1827.jpg,PROCESSED,4000,4000,135,114,0.844,
+parking_2026-10-07_1256.jpg,PROCESSED,4000,4000,329,290,0.881,
+parking_2026-10-07_1807.jpg,PROCESSED,4000,4000,49,24,0.49,

@@ -1,0 +1,40 @@
+{
+  "image": "parking_2026-10-07_1807.jpg",
+  "review_trigger_px": 10.0,
+  "trigger_is_validated": false,
+  "method": "manual stationary landmark comparison",
+  "spaces": {
+    "A01": {
+      "status": "REVIEW",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger",
+      "landmark_count": 3,
+      "median_error_px": 31.400636672973633,
+      "maximum_error_px": 32.31098937988281,
+      "mad_px": 0.9103527069091797
+    },
+    "A02": {
+      "status": "REVIEW",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger",
+      "landmark_count": 3,
+      "median_error_px": 20.248456954956055,
+      "maximum_error_px": 21.095022201538086,
+      "mad_px": 0.8465652465820312
+    },
+    "A03": {
+      "status": "REVIEW",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger",
+      "landmark_count": 3,
+      "median_error_px": 18.439088821411133,
+      "maximum_error_px": 20.51828384399414,
+      "mad_px": 1.468526840209961
+    },
+    "A04": {
+      "status": "REVIEW",
+      "reason": "Median landmark displacement exceeds the experimental investigation trigger",
+      "landmark_count": 3,
+      "median_error_px": 22.803508758544922,
+      "maximum_error_px": 26.90724754333496,
+      "mad_px": 4.103738784790039
+    }
+  }
+}
